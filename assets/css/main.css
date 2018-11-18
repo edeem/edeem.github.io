@@ -42,10 +42,10 @@ section{
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
+	padding-top:    115px;
 	padding-bottom: 111px;
-	padding-left: 141px;
-	padding-right: 141px;
+	padding-left:   141px;
+	padding-right:  141px;
 }
 .calendar_container
 {
@@ -55,16 +55,16 @@ section{
 .calendar_title_bar
 {
 	width: 100%;
-	height: 68px;
-	padding-left: 26px;
+	height: 	   68px;
+	padding-left:  26px;
 	background-color: #4867c0;
 	background-image: linear-gradient(to right, #4867c0, #329fec);
-	background: #4867c0;
-	background: linear-gradient(to right, #4867c0, #329fec);
+	background:       #4867c0;
+	background:       linear-gradient(to right, #4867c0, #329fec);
 }
 .calendar_icon
 {
-	width: 27px;
+	width:  27px;
 	height: 25px;
 }
 .calendar_icon img
@@ -73,7 +73,7 @@ section{
 }
 .calendar_title
 {
-	font-size: 18px;
+	font-size:  18px;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #FFFFFF;
@@ -82,7 +82,7 @@ section{
 .calendar_items
 {
 	width: 100%;
-	padding-top: 55px;
+	padding-top:    55px;
 	padding-bottom: 61px;
 }
 .calendar_item
@@ -96,7 +96,7 @@ section{
 }
 .calendar_item_image
 {
-	width: 103px;
+	width:  103px;
 	height: 103px;
 	border-radius: 50%;
 	overflow: hidden;
@@ -111,14 +111,14 @@ section{
 }
 .calendar_item_time div:first-child
 {
-	font-size: 30px;
+	font-size:  30px;
 	font-weight: 500;
 	color: #4c4c4c;
 	line-height: 0.75;
 }
 .calendar_item_time div:last-child
 {
-	font-size: 14px;
+	font-size:  14px;
 	font-weight: 500;
 	color: #4c4c4c;
 	margin-top: 11px;
@@ -135,10 +135,10 @@ section{
 }
 .calendar_item_text div:nth-child(2)
 {
-	font-size: 16px;
+	font-size:  16px;
 	font-weight: 400;
 	color: #888888;
-	margin-top: 2px;
+	margin-top:  2px;
 }
 .calendar_item_text div:last-child
 {
