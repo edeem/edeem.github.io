@@ -81,13 +81,13 @@ section{
 }
 .calendar_items
 {
-	width: 120%;
+	width: 100%;
 	padding-top:    55px;
 	padding-bottom: 61px;
 }
 .calendar_item
 {
-	width: 120%;
+	width: 100%;
 	padding-left: 39px;
 }
 .calendar_item:not(:last-child)
