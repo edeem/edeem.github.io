@@ -351,7 +351,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	br.clear {
@@ -2060,11 +2060,11 @@ input, select, textarea {
 	}
 
 		table tbody tr:nth-child(2n+2) {
-			background: #f4f4f4;
+			background: rgba(0,0,0,0); /* #f4f4f4; */
 		}
 
 		table td {
-			padding: 0.5em 1em 0.5em 1em;
+			padding: 0.5em 1em -0.2em 1em;
 		}
 
 		table th {
