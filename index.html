@@ -15,6 +15,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 		<link href="images/favicon-16x16.png" rel="icon" type="image/png">
+		<style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
 	</head>
 	<body class="is-preload">
 
@@ -367,6 +374,46 @@
 		</section>
 
 
+		<!-- Venue -->
+		<section id="venue" class="five">
+			<div class="container">
+				<header>
+					<h2>Venue</h2>
+				</header>
+				<p style="font-size:18px; line-height:1.2; margin-top:10mm">The workshop will take place at the San Giobbe Economics Campus, within the <a href="https://www.unive.it/pag/28365/">Department of Economics</a> of Ca' Foscari University of Venice (see the <a href="https://apps.unive.it/mappe/sede/990021">map</a>).
+				The full address is San Giobbe - Cannaregio 873, 30121 Venice, Italy.</p>
+
+				<h5>How to reach us</h5>
+				<p style="font-size:18px; line-height:1.2; margin-top:10mm">
+					<b>By plane</b> (from Venice Marco Polo airport): You can take the direct boat ("Alilaguna" company) which stops almost in front of the main entrance of the Department and takes around 45 minutes. Alternatively, you may take the bus ("ATVO" company) which leads you to Piazzale Roma, then follow the instruction below.<br>
+					<b>By train</b> (from Venezia Santa Lucia): 5 minutes walk from the railway station "Venezia Santa Lucia". You can find the indications at platform 1, where a short path leads you to the new bridge in memory of "Valeria Solesin", heading directly to the Department.<br>
+					<b>By bus</b> (from Piazzale Roma): it is about 10 minute walk. You need to cross the Grand Canal over the "Calatrava" bridge, then proceed straight on until the railway station, where you can find the indications (see above).
+				</p>
+
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=dipartmento%20di%20economia%20venezia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+					</div>
+					<style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+				</div>
+
+
+				<div id="map"></div>
+			    <script>
+					function initMap() {
+						// The location of Uluru
+						var uluru = {lat: -25.344, lng: 131.036};
+						// The map, centered at Uluru
+						var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: uluru});
+						// The marker, positioned at Uluru
+						var marker = new google.maps.Marker({position: uluru, map: map});
+					}
+			    </script>
+			    <script async defer
+			    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBELL0xbs5dch7_183buO3awNAaNnmVlsU&callback=initMap">
+			    </script>
+			</div>
+		</section>
 
 
 		<!-- Consortium -->
@@ -447,7 +494,7 @@
 
 
 		<!-- Contact -->
-		<section id="contact" class="five">
+		<section id="contact" class="seven">
 			<div class="container">
 				<header>
 					<h2>Contact</h2>
